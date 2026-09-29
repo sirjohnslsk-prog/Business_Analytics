@@ -1,0 +1,11 @@
+rank,province,opportunity_score,decision_segment,population_2022,growth_2010_2022_pct,employment_to_population_2023_pct,poverty_gap_2022_pct,line_of_rail_competition
+1,Lusaka,80.8,Priority market,3093617,41.18207851772411,49.1,6.9,High
+2,Copperbelt,68.1,Priority market,2768192,40.35228616900832,41.9,11.0,High
+3,Central,62.5,Priority market,2261336,73.00259886115256,44.5,30.7,High
+4,Southern,58.6,Selective growth,2388091,50.20139302080726,32.3,26.5,Lower
+5,Eastern,49.2,Selective growth,2462682,54.62687916637628,22.1,36.2,Lower
+6,North-Western,44.7,Develop / distance-led,1278357,75.82938584184727,26.5,27.1,Lower
+7,Luapula,34.0,Develop / distance-led,1519478,53.18445813048742,25.9,40.7,Lower
+8,Western,33.2,Develop / distance-led,1375604,52.34148491540178,25.7,36.8,Lower
+9,Northern,30.9,Develop / distance-led,1623853,46.84551972104061,20.8,38.9,Lower
+10,Muchinga,11.2,Develop / distance-led,922213,29.58672506558637,22.5,46.9,Lower

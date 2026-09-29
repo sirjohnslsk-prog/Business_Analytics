@@ -1,0 +1,6 @@
+metric,weight,logic
+Market size,0.35,Larger provincial population increases addressable market
+Population growth,0.15,Faster 2010-2022 growth signals expanding market
+Employment base,0.20,Higher employment-to-population ratio supports working-adult segment
+Affordability headroom,0.20,Lower poverty gap receives higher score; this is a proxy not disposable income
+Competitive whitespace,0.10,HEA reports >80% of private universities/university colleges concentrated along Lusaka-Copperbelt-Central line of rail; non-line provinces receive higher whitespace score

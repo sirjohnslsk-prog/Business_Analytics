@@ -1,0 +1,12 @@
+-- Illustrative DAX measures for production Power BI implementation
+Population = SUM('Province Market'[population_2022])
+Average Opportunity Score = AVERAGE('Province Market'[opportunity_score])
+Average Employment Ratio = AVERAGE('Province Market'[employment_to_population_2023_pct])
+Average Poverty Gap = AVERAGE('Province Market'[poverty_gap_2022_pct])
+
+Estimated Leads = DIVIDE([Campaign Budget],[Cost Per Lead],0)
+Estimated Applications = [Estimated Leads] * [Lead to Application %]
+Estimated Registrations = [Estimated Applications] * [Application to Registration %]
+Cost per Registration = DIVIDE([Campaign Budget],[Estimated Registrations],0)
+Gross Fee Value = [Estimated Registrations] * [Selected Published Fee]
+Gross Fee Value / Spend = DIVIDE([Gross Fee Value],[Campaign Budget],0)
